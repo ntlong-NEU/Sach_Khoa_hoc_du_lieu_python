@@ -1,0 +1,35 @@
+format: jb-book
+root: README
+options:  # The options key will be applied to all chapters, but not sub-sections
+  numbered: True
+parts:
+- caption: Danh sách chương
+  numbered: true
+  chapters:
+  - file: chapters/gioi-thieu-ve-khoa-hoc-du-lieu
+  - file: chapters/nguyen-ly-phan-tich-du-lieu
+  - file: chapters/khung-phuong-phap-xay-dung-mo-hinh
+  - file: chapters/chapter4-basics
+  - file: chapters/chapter5-Numpy
+  - file: chapters/chapter6-pandas
+  - file: chapters/chapter7-Import-data
+  - file: chapters/chapter8-prepare
+  - file: chapters/chapter9-transform
+  - file: chapters/chapter10-visualization
+  #- file: chapters/chapter11-IntroML
+  - file: chapters/chapter12-Supervised
+  #- file: chapters/chapter13-Unsupervised
+- caption: Bài tập thực hành
+  chapters:
+  - file: practice-exercises/100_bai_tap_python_day_du.ipynb
+  - file: practice-exercises/50_bai_tap_numpy.ipynb
+  - file: practice-exercises/30_bai_tap_pandas.ipynb
+  - file: practice-exercises/Pandas_Exercise.ipynb
+  - file: practice-exercises/50_bai_tap_tien_xu_ly_du_lieu.ipynb
+  - file: practice-exercises/50_bai_tap_matplotlib_seaborn.ipynb
+  - file: practice-exercises/50_bai_tap_linear_softmax_models.ipynb
+  - file: practice-exercises/50_bai_tap_cay_rung_boosting.ipynb
+
+
+
+ 
